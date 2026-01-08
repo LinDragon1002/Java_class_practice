@@ -1,4 +1,8 @@
 import java.util.Scanner;
+// 類別設計
+// 程式需要你完成，圖書館 Library以及書 Book兩個類別
+// 該圖書館目前固定只有三本書
+// 每本書有書名 title、作者 author、價格 price以及發行日期 publishDate
 
 class Library {
     Book[] books;

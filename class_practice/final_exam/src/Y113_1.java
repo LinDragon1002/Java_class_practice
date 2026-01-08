@@ -1,4 +1,8 @@
 import java.util.Scanner;
+// 輸入一個以空格分隔的非常簡單的數字運算式
+// 輸入 1 + 2，程式輸出 3
+// 輸入 5 / 6，程式輸出 0.833 (小數點後取三位)
+
 public class Y113_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

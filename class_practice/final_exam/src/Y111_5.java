@@ -1,4 +1,6 @@
 import java.util.Scanner;
+// 找最大數
+// 假設使用者輸入兩行數字，第一行是要判斷幾個數字，第二行是所有要判斷的數字， 請輸出當中最大的數字
 
 public class Y111_5 {
     public static void main(String[] args) {

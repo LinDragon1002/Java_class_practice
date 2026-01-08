@@ -1,4 +1,8 @@
 import java.util.Scanner;
+// 費式數列
+// 輸入 1 100
+// 程式應輸出 1 1 2 3 5 8 13 21 34 55 89
+// 因為這些數字介於1到100之間
 
 public class Y113_2 {
     public static void main(String[] args) {

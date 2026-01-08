@@ -1,4 +1,9 @@
 import java.util.Scanner;
+// 除錯問題
+// 預期的結果是讓程式透過使用者輸入字串
+// 例如輸入 NTUB，可以順利輸出 “Hello NTUB”
+// 輸入 school，可以輸入 Hello school
+
 
 class Base {
     String name;

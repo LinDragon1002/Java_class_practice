@@ -1,10 +1,10 @@
 import java.util.Scanner;
 // 幾A幾B程式判斷
 // 輸入
-// 1234
-// 2054
+// 1234 2054
 // 輸出
 // 1A1B
+
 class Game {
     String compare(String guess, String ans) {
         int countA = 0;
@@ -29,11 +29,12 @@ class Game {
     }
 }
 
-public class Y111_3 {
+public class Y112_1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String guess = sc.next();
-        String ans = sc.next();
+        String[] sts = sc.nextLine().split(" ");
+        String guess = sts[0];
+        String ans = sts[1];
         System.out.println(new Game().compare(guess, ans));
     }
 }

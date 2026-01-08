@@ -1,4 +1,6 @@
 import java.util.Scanner;
+// 數字排列組合
+// 假設使用者輸入一個三位數的正整數，其中三個數字都不重覆且介於0~9之間的數字，請「從大到小」輸出
 
 public class Y111_2 {
     public static void main(String[] args) {
